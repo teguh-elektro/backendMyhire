@@ -26,7 +26,8 @@ const {
 } = require('../controllers/user')
 
 
-var directories = path.dirname('/Users/Teguh Setiawan/Documents/pelatihan/tgl 21 11 19/Myhire/scr');
+// require('../../././src') '/Users/Teguh Setiawan/Documents/pelatihan/tgl 21 11 19/Myhire/scr'
+var directories = path.dirname('./');
 
 const {
     tokenVerify
